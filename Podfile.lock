@@ -1,0 +1,14 @@
+PODS:
+  - SocialAuth (1.0.0)
+
+DEPENDENCIES:
+  - SocialAuth (from `git@github.com:evadne/SocialAuth.git`)
+
+EXTERNAL SOURCES:
+  SocialAuth:
+    :git: git@github.com:evadne/SocialAuth.git
+
+SPEC CHECKSUMS:
+  SocialAuth: f3ceadaca8a97453f75dc0bf0d2d79f7646e63d5
+
+COCOAPODS: 0.18.1

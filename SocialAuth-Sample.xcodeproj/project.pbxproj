@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		143B62C29D62418880475120 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 779B825D0FB045478BB6EF8F /* libPods.a */; };
+		FF13B4561745E337004226B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF13B4551745E337004226B8 /* UIKit.framework */; };
+		FF13B4581745E337004226B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF13B4571745E337004226B8 /* Foundation.framework */; };
+		FF13B45A1745E337004226B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF13B4591745E337004226B8 /* CoreGraphics.framework */; };
+		FF13B4601745E337004226B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF13B45E1745E337004226B8 /* InfoPlist.strings */; };
+		FF13B4621745E337004226B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF13B4611745E337004226B8 /* main.m */; };
+		FF13B4661745E337004226B8 /* SAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF13B4651745E337004226B8 /* SAAppDelegate.m */; };
+		FF13B4681745E337004226B8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FF13B4671745E337004226B8 /* Default.png */; };
+		FF13B46A1745E337004226B8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF13B4691745E337004226B8 /* Default@2x.png */; };
+		FF13B46C1745E337004226B8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF13B46B1745E337004226B8 /* Default-568h@2x.png */; };
+		FF13B46F1745E337004226B8 /* SAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF13B46E1745E337004226B8 /* SAViewController.m */; };
+		FF13B4721745E337004226B8 /* SAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF13B4701745E337004226B8 /* SAViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		779B825D0FB045478BB6EF8F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9254347D57CE42C5AC07D902 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		FF13B4521745E337004226B8 /* SocialAuth-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SocialAuth-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF13B4551745E337004226B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF13B4571745E337004226B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF13B4591745E337004226B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF13B45D1745E337004226B8 /* SocialAuth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocialAuth-Info.plist"; sourceTree = "<group>"; };
+		FF13B45F1745E337004226B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF13B4611745E337004226B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF13B4631745E337004226B8 /* SocialAuth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocialAuth-Prefix.pch"; sourceTree = "<group>"; };
+		FF13B4641745E337004226B8 /* SAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAAppDelegate.h; sourceTree = "<group>"; };
+		FF13B4651745E337004226B8 /* SAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAAppDelegate.m; sourceTree = "<group>"; };
+		FF13B4671745E337004226B8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FF13B4691745E337004226B8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FF13B46B1745E337004226B8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FF13B46D1745E337004226B8 /* SAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAViewController.h; sourceTree = "<group>"; };
+		FF13B46E1745E337004226B8 /* SAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAViewController.m; sourceTree = "<group>"; };
+		FF13B4711745E337004226B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SAViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF13B44F1745E337004226B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF13B4561745E337004226B8 /* UIKit.framework in Frameworks */,
+				FF13B4581745E337004226B8 /* Foundation.framework in Frameworks */,
+				FF13B45A1745E337004226B8 /* CoreGraphics.framework in Frameworks */,
+				143B62C29D62418880475120 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF13B4491745E337004226B8 = {
+			isa = PBXGroup;
+			children = (
+				FF13B45B1745E337004226B8 /* SocialAuth-Sample */,
+				FF13B4541745E337004226B8 /* Frameworks */,
+				FF13B4531745E337004226B8 /* Products */,
+				9254347D57CE42C5AC07D902 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		FF13B4531745E337004226B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF13B4521745E337004226B8 /* SocialAuth-Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF13B4541745E337004226B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF13B4551745E337004226B8 /* UIKit.framework */,
+				FF13B4571745E337004226B8 /* Foundation.framework */,
+				FF13B4591745E337004226B8 /* CoreGraphics.framework */,
+				779B825D0FB045478BB6EF8F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF13B45B1745E337004226B8 /* SocialAuth-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				FF13B4641745E337004226B8 /* SAAppDelegate.h */,
+				FF13B4651745E337004226B8 /* SAAppDelegate.m */,
+				FF13B46D1745E337004226B8 /* SAViewController.h */,
+				FF13B46E1745E337004226B8 /* SAViewController.m */,
+				FF13B4701745E337004226B8 /* SAViewController.xib */,
+				FF13B45C1745E337004226B8 /* Supporting Files */,
+			);
+			path = "SocialAuth-Sample";
+			sourceTree = "<group>";
+		};
+		FF13B45C1745E337004226B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF13B45D1745E337004226B8 /* SocialAuth-Info.plist */,
+				FF13B45E1745E337004226B8 /* InfoPlist.strings */,
+				FF13B4611745E337004226B8 /* main.m */,
+				FF13B4631745E337004226B8 /* SocialAuth-Prefix.pch */,
+				FF13B4671745E337004226B8 /* Default.png */,
+				FF13B4691745E337004226B8 /* Default@2x.png */,
+				FF13B46B1745E337004226B8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF13B4511745E337004226B8 /* SocialAuth-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF13B4751745E337004226B8 /* Build configuration list for PBXNativeTarget "SocialAuth-Sample" */;
+			buildPhases = (
+				C2BFF096DEBE4EE09E3564FB /* Check Pods Manifest.lock */,
+				FF13B44E1745E337004226B8 /* Sources */,
+				FF13B44F1745E337004226B8 /* Frameworks */,
+				FF13B4501745E337004226B8 /* Resources */,
+				3A69B112DFE147EBB27F68A0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SocialAuth-Sample";
+			productName = SocialAuth;
+			productReference = FF13B4521745E337004226B8 /* SocialAuth-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF13B44A1745E337004226B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SA;
+				ORGANIZATIONNAME = Radius;
+			};
+			buildConfigurationList = FF13B44D1745E337004226B8 /* Build configuration list for PBXProject "SocialAuth-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF13B4491745E337004226B8;
+			productRefGroup = FF13B4531745E337004226B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF13B4511745E337004226B8 /* SocialAuth-Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF13B4501745E337004226B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF13B4601745E337004226B8 /* InfoPlist.strings in Resources */,
+				FF13B4681745E337004226B8 /* Default.png in Resources */,
+				FF13B46A1745E337004226B8 /* Default@2x.png in Resources */,
+				FF13B46C1745E337004226B8 /* Default-568h@2x.png in Resources */,
+				FF13B4721745E337004226B8 /* SAViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A69B112DFE147EBB27F68A0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		C2BFF096DEBE4EE09E3564FB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sanbox is not in sync with the Podfile.lock. Run 'pod install'.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF13B44E1745E337004226B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF13B4621745E337004226B8 /* main.m in Sources */,
+				FF13B4661745E337004226B8 /* SAAppDelegate.m in Sources */,
+				FF13B46F1745E337004226B8 /* SAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF13B45E1745E337004226B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF13B45F1745E337004226B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF13B4701745E337004226B8 /* SAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF13B4711745E337004226B8 /* en */,
+			);
+			name = SAViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF13B4731745E337004226B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF13B4741745E337004226B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF13B4761745E337004226B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9254347D57CE42C5AC07D902 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialAuth-Sample/SocialAuth-Sample-Prefix.pch";
+				INFOPLIST_FILE = "SocialAuth-Sample/SocialAuth-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF13B4771745E337004226B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9254347D57CE42C5AC07D902 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialAuth-Sample/SocialAuth-Sample-Prefix.pch";
+				INFOPLIST_FILE = "SocialAuth-Sample/SocialAuth-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF13B44D1745E337004226B8 /* Build configuration list for PBXProject "SocialAuth-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF13B4731745E337004226B8 /* Debug */,
+				FF13B4741745E337004226B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF13B4751745E337004226B8 /* Build configuration list for PBXNativeTarget "SocialAuth-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF13B4761745E337004226B8 /* Debug */,
+				FF13B4771745E337004226B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF13B44A1745E337004226B8 /* Project object */;
+}
